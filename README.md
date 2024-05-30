@@ -27,9 +27,9 @@ The Python script `stock_data.py` retrieves real-time stock data for a given sto
 
 1. Ensure Python is installed on your system.
 2. Install the required Python library `yfinance` using pip:
-pip install yfinance
+``pip install yfinance``
 3. Run the Python script:
-python stock_data.py
+``python stock_data.py``
 4. Follow the on-screen instructions to input a stock symbol and view the stock data.
 
 ## Disclaimer
