@@ -85,7 +85,7 @@ int main() {
                 viewBalance(balance);
                 break;
             case 5:
-                system("python stock_data.py");
+                system("python assets/stock_data.py");
                 break;
             case 6:
                 printf("Exiting...\nBye!\n");
