@@ -12,7 +12,7 @@ BharatTrade is a simple command-line stock trading simulator implemented in C an
 
 ## Usage
 
-1. Compile the C program `bharattrade.c` using a C compiler.
+1. Compile the C program `BharatTrade_main.c` using a C compiler.
 2. Run the compiled executable.
 3. Follow the on-screen instructions to navigate through the menu and perform actions.
 
