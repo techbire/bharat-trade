@@ -8,7 +8,7 @@ BharatTrade is a simple command-line stock trading simulator implemented in C an
 - **Invest Money**: Users can invest a specified amount in a stock.
 - **Withdraw Money**: Users can withdraw money from their account balance.
 - **View Balance**: Users can view their current account balance.
-- **View Stock Data**: Users can view real-time stock data for a given stock symbol but you have to install first their dependancy which I described below.
+- **View Stock Data**: Users can view real-time stock data for a given stock symbol. Ensure Python and the necessary libraries (`yfinance`) are installed to run the Python script.
 
 ## Usage
 
@@ -16,8 +16,14 @@ BharatTrade is a simple command-line stock trading simulator implemented in C an
 2. Run the compiled executable.
 3. Follow the on-screen instructions to navigate through the menu and perform actions.
 
-### Note:
-- Ensure Python and the necessary libraries (`yfinance`) are installed to run the Python script for viewing stock data.
+## File Handling
+
+The project also includes file handling functionalities:
+
+- **Stock Data Storage**: Stock data retrieved from the Python script can be stored in external files for future reference or analysis.
+- **Account Information**: Account information, such as balance and transaction history, can be stored in files to maintain user data across sessions.
+
+Ensure appropriate permissions and file paths are set to enable file handling functionalities.
 
 ## Python Script
 
@@ -27,9 +33,13 @@ The Python script `stock_data.py` retrieves real-time stock data for a given sto
 
 1. Ensure Python is installed on your system.
 2. Install the required Python library `yfinance` using pip:
-``pip install yfinance``
+```
+pip install yfinance
+```
 3. Run the Python script:
-``python stock_data.py``
+```
+python stock_data.py
+```
 4. Follow the on-screen instructions to input a stock symbol and view the stock data.
 
 ## Disclaimer
