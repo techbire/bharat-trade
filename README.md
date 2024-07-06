@@ -2,6 +2,8 @@
 
 BharatTrade is a simple command-line stock trading simulator implemented in C and Python. It allows users to perform basic actions such as adding money, investing, withdrawing, and viewing account balance. Additionally, users can view real-time stock data for a given stock symbol.
 
+# Video Demo - https://www.youtube.com/watch?v=1R9IS1HSJWQ
+
 ## Features
 
 - **Add Money**: Users can add money to their account balance.
